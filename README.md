@@ -7,4 +7,11 @@
 - `python -m venv .venv` (생략)
 - `.\.venv\Scripts\activate.bat`
 - ---> (.venv) 가 보여야 함.
-- pip install pygame-ce
+- pip install pygame
+
+
+pip install pygame
+pip install black isort
+pip freeze > requiements.txt
+
+pip install -r requirements.txt
